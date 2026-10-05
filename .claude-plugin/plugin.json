@@ -9,9 +9,15 @@
     "url": "https://renou.ai"
   },
   "homepage": "https://renou.ai/connect",
-  "repository": "https://github.com/renou-AI/renou-claude-plugin",
+  "repository": "https://github.com/MaxPfeifferAI/renou-claude-plugin",
   "license": "MIT",
-  "keywords": ["personal crm", "relationships", "networking", "contacts", "follow up"],
+  "keywords": [
+    "personal crm",
+    "relationships",
+    "networking",
+    "contacts",
+    "follow up"
+  ],
   "icon": "./assets/icon.png",
   "documentationUrl": "https://renou.ai/connect",
   "supportUrl": "https://renou.ai/support",
