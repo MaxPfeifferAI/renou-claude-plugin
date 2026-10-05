@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "renou": {
+      "type": "http",
+      "url": "https://renou.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "renou",
+  "displayName": "Renou",
+  "version": "1.0.0",
+  "description": "Stay close to the people who matter: log catch-ups in one line, get a brief before meetings, see who to reconnect with and draft follow-ups from your Renou network.",
+  "author": {
+    "name": "MUNADI AI SOLUTIONS FZCO",
+    "email": "support@renou.ai",
+    "url": "https://renou.ai"
+  },
+  "homepage": "https://renou.ai/connect",
+  "repository": "https://github.com/renou-AI/renou-claude-plugin",
+  "license": "MIT",
+  "keywords": ["personal crm", "relationships", "networking", "contacts", "follow up"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://renou.ai/connect",
+  "supportUrl": "https://renou.ai/support",
+  "privacyPolicyUrl": "https://renou.ai/privacy",
+  "termsOfServiceUrl": "https://renou.ai/terms"
+}
