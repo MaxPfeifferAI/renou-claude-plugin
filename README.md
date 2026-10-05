@@ -12,7 +12,7 @@ Renou is a personal relationship manager for iPhone. This plugin connects Claude
 ## Set up
 
 1. Install the plugin, then connect **Renou** from the plugin's Connectors tab.
-2. Sign in with your Renou account and choose what to allow. Reading is always on; logging interactions is a separate checkbox.
+2. Sign in with your Renou account and choose what to allow. Reading is always on; logging interactions is a separate switch, off until you turn it on.
 3. You need a Renou account with an active Plus or Power subscription. Both are managed in the Renou iPhone app.
 
 To let Claude log interactions without asking each time, set the Renou tool "Log a touchpoint" to **Always allow** in Claude's connector settings.

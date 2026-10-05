@@ -27,7 +27,7 @@ If the user mentions several people, log each one the same way and reply with on
 
 ## If something fails
 
-- `log_touchpoint` isn't available: the user connected Renou without logging. Tell them to reconnect Renou and tick "Allow this connection to log touchpoints".
+- `log_touchpoint` isn't available: the user connected Renou without logging. Tell them to reconnect Renou and turn on "Allow this connection to log touchpoints".
 - `subscription_required`: say that logging needs an active Renou Plus or Power subscription, managed in the Renou iPhone app.
 - Renou isn't connected: point the user to https://renou.ai/connect.
 
