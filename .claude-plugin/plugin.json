@@ -1,8 +1,8 @@
 {
   "name": "renou",
   "displayName": "Renou",
-  "version": "1.0.0",
-  "description": "Stay close to the people who matter: log catch-ups in one line, get a brief before meetings, see who to reconnect with and draft follow-ups from your Renou network.",
+  "version": "1.1.0",
+  "description": "Create and update Renou contacts, save birthdays, log catch-ups, prepare for meetings, and see who to reconnect with.",
   "author": {
     "name": "MUNADI AI SOLUTIONS FZCO",
     "email": "support@renou.ai",

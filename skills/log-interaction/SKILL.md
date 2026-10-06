@@ -11,8 +11,8 @@ The user decided to log it by telling you, so log it right away in as few steps 
 
 1. Find the person with `search_contacts`, using the name the user gave. A first name is enough.
    - One match: use it.
-   - Several matches: ask one short question to pick, for example "Which Maya: Maya Chen at Stripe or Maya Ortiz?" This is the only question you ask.
-   - No match: say the person isn't in Renou yet and that contacts are added in the Renou iPhone app. Don't log anything and never invent a contact ID.
+   - Several matches: ask one short question to pick, for example "Which Maya: Maya Chen at Stripe or Maya Ortiz?" Ask only for information needed to identify the person.
+   - No match: say the person is not in Renou yet. If the user also asked to add them, use `create_contact` with the supplied details and a new idempotency key, then use the returned contact ID. Otherwise ask whether to create the contact before logging. Never invent a contact ID.
 2. Call `log_touchpoint` with:
    - `contact_id`: from step 1.
    - `touchpoint_type`: one of `call`, `message`, `email`, `meeting`, `coffee`, `video_call`, `in_person`, `other`. Map the user's words: called or phoned → `call`; texted, WhatsApp or DM → `message`; email → `email`; meeting → `meeting`; coffee → `coffee`; Zoom, Teams, Meet or FaceTime → `video_call`; lunch, dinner, drinks or ran into → `in_person`; anything unclear → `other`.
@@ -27,7 +27,7 @@ If the user mentions several people, log each one the same way and reply with on
 
 ## If something fails
 
-- `log_touchpoint` isn't available: the user connected Renou without logging. Tell them to reconnect Renou and turn on "Allow this connection to log touchpoints".
+- `log_touchpoint` isn't available: the user connected Renou without logging. Tell them to reconnect Renou and leave "Create and update contacts, and log touchpoints" switched on.
 - `subscription_required`: say that logging needs an active Renou Plus or Power subscription, managed in the Renou iPhone app.
 - Renou isn't connected: point the user to https://renou.ai/connect.
 
