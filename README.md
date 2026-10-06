@@ -23,7 +23,7 @@ Setup guide and troubleshooting: https://renou.ai/connect
 
 ## Data
 
-The plugin itself stores nothing and contains no code. Its skills use the Renou connector at `https://renou.ai/mcp`, operated by MUNADI AI SOLUTIONS FZCO, which reads your own Renou contacts, interactions and reminders. With write access, it can create contacts, update details including birthdays, and log interactions. Answers come in small pages; there are no tools to export everything, delete contacts, or send messages. You can disconnect at any time in the Renou app under Settings, AI Connectors.
+The plugin itself stores nothing and contains no code. Its skills use the Renou connector at `https://renou.ai/mcp`, operated by MUNADI AI SOLUTIONS - FZCO, which reads your own Renou contacts, interactions and reminders. With write access, it can create contacts, update details including birthdays, and log interactions. Answers come in small pages; there are no tools to export everything, delete contacts, or send messages. You can disconnect at any time in the Renou app under Settings, AI Connectors.
 
 - Privacy policy: https://renou.ai/privacy
 - Terms: https://renou.ai/terms
